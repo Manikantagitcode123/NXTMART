@@ -1,0 +1,35 @@
+.bgcolor {
+  background-color: #088c03;
+  color: #ffffff;
+  border-width: 0px;
+
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.notupplybgcolor {
+  background-color: #ffffff;
+  border-width: 0px;
+
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .bgcolor {
+    font-size: 15px;
+    width: 150px;
+  }
+  .notupplybgcolor {
+    font-size: 15px;
+    width: 150px;
+  }
+}

@@ -1,0 +1,133 @@
+.bg_container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.homecard {
+  display: flex;
+  width: 100vw;
+  height: 1371px;
+}
+.categoriecard {
+  overflow: auto;
+  width: 15vw;
+}
+.productcard {
+  overflow: auto;
+  width: 84vw;
+}
+.loadercard {
+  height: 95vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.retrybtn {
+  width: 93px;
+  height: 44px;
+  border-radius: 8px;
+  border-width: 0px;
+
+  gap: 8px;
+  background-color: #088c03;
+  color: #ffffff;
+}
+.failure_card {
+  height: 622px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+.allbtn {
+  background-color: #ffffff;
+  border-width: 0px;
+
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+.categoriestext {
+  width: 174px;
+  height: 32px;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 70px;
+  color: #088c03;
+}
+.applybgcolor {
+  background-color: #088c03;
+  color: #ffffff;
+  border-width: 0px;
+
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.homeheaderformb {
+  display: block;
+}
+.formbl {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .homeheaderformb {
+    display: none;
+  }
+  .bg_container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .formbl {
+    display: block;
+  }
+
+  .homecard {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .categoriecard {
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    overflow-x: scroll;
+  }
+  .ullistform {
+    display: flex;
+  }
+  .categoriestext {
+    display: none;
+  }
+  .inm {
+    display: none;
+  }
+  .productcard {
+    width: 100vw;
+    margin-left: 0px;
+  }
+  .applybgcolor {
+    width: 150px;
+    font-size: 15px;
+  }
+  .allbtn {
+    width: 150px;
+    font-size: 15px;
+  }
+}
